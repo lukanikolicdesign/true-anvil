@@ -79,7 +79,7 @@ img {
 }
 
 .image-box {
-    border: 1px solid blue;
+    border: 1px solid #3882F6;
     width: 200px;
     height: 200px;
 }
@@ -131,4 +131,40 @@ h2 {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+
+.cta-section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.cta-headline {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-button {
+    border: solid 1px white;
+    padding: 16px 64px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 16px;
+    font-size: 18px;
+
 }
