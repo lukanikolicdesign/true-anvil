@@ -98,11 +98,37 @@ h2 {
 }
 
 .card {
-    max-width: 180px;
+    max-width: 200px;
     align-items: center;
     text-align: center;
 }
 
 .image-box {
         border-radius: 16px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
